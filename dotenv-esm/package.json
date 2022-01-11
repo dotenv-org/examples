@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "devDependencies": {
     "dotenv": "^11.0.0"
   }
