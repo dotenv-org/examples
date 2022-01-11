@@ -1,6 +1,15 @@
 # README
 
-To recreate this file:
+## USAGE
+
+```bash
+npm install
+node index.js
+```
+
+## RECREATE
+
+To recreate this:
 
 ```bash
 npm install dotenv --save
@@ -8,7 +17,7 @@ npm install dotenv --save
 
 Create index.js file
 
-```
+```js
 require('dotenv').config()
 
 console.log(process.env)
