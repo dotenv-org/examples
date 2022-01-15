@@ -1,2 +1,2 @@
-console.log(`hi ${process.env.NAME}`)
+console.log(process.env)
 
