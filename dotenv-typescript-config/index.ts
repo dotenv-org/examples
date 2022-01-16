@@ -1,5 +1,5 @@
-await import("dotenv/config")
+(async function() {
+  await import("dotenv/config")
 
-export {}
-
-console.log(process.env)
+  console.log(process.env)
+})()
