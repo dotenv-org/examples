@@ -21,7 +21,7 @@
     "webpack-dev-server": "^4.7.2"
   },
   "dependencies": {
-    "dotenv": "10.0.0",
+    "dotenv": "12.0.3",
     "lodash": "^4.17.21"
   },
   "babel": {
