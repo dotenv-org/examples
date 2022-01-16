@@ -3,7 +3,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "dotenv": "github:motdotla/dotenv#7016a22"
+    "dotenv": "^13.0.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.8",
