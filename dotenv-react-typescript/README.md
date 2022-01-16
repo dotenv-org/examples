@@ -1,4 +1,4 @@
-# README
+# examples/dotenv-react-typescript
 
 An example of using dotenv with react and typescript.
 

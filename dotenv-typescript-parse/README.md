@@ -1,4 +1,4 @@
-# README
+# examples/dotenv-typescript-parse
 
 An example of using dotenv.parse with typescript.
 

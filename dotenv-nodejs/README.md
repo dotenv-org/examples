@@ -1,4 +1,4 @@
-# README
+# examples/dotenv-nodejs
 
 An example of using dotenv with a simple nodejs script.
 

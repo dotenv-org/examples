@@ -1,4 +1,4 @@
-# README
+# examples/dotenv-typescript
 
 An example of using dotenv with typescript.
 

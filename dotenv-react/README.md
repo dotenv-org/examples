@@ -1,4 +1,4 @@
-# README
+# examples/dotenv-react
 
 An example of using dotenv with react.
 

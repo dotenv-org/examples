@@ -1,4 +1,4 @@
-# README
+# examples/dotenv-webpack
 
 An example of using dotenv (dotenv-webpack) with webpack.
 
