@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "dotenv": "github:motdotla/dotenv#fad2cad"
+  }
+}
