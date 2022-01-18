@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "dotenv": "github:motdotla/dotenv#01123f9f4129c5c9755dd2bd7b363d81afbc91d8"
+  }
+}
