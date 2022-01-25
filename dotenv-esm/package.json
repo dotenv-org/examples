@@ -1,5 +1,5 @@
 {
   "devDependencies": {
-    "dotenv": "^14.0.0"
+    "dotenv": "^14.3.1"
   }
 }
