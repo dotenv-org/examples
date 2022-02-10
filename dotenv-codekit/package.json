@@ -1,0 +1,15 @@
+{
+  "name": "codekit-bootstrap-project",
+  "version": "1.0.0",
+  "description": "CodeKit created this starter package.json file. You should customize it appropriately. (If you intend to publish this project on npm, add an entry in the 'repository' field and remove the 'private' attribute, below.)",
+  "scripts": {},
+  "author": "",
+  "license": "UNLICENSED",
+  "repository": {},
+  "private": true,
+  "dependencies": {
+    "@popperjs/core": "^2.11.2",
+    "bootstrap": "^5.1.3",
+    "dotenv": "^14.3.2"
+  }
+}

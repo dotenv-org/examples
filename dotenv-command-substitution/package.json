@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "dotenv-eval": "^0.2.0"
+  }
+}
