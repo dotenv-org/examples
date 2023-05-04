@@ -26,3 +26,7 @@ yarn-error.log*
 .flaskenv*
 !.env.project
 !.env.vault
+
+# SPECIAL CASE FOR THIS EXAMPLE ONLY. USUALLY DON'T COMMIT THESE TO CODE!
+!.env.keys
+!.env.test
