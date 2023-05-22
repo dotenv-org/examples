@@ -1,1 +1,3 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# dotenv-vault-nextjs
+
+Demonstrates using .env.vault with nextjs.
