@@ -1,0 +1,23 @@
+{
+  "name": "hello-world",
+  "repository": "https://github.com/vercel/examples.git",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "node -r dotenv-vault-core/config ./node_modules/.bin/next dev",
+    "build": "node -r dotenv-vault-core/config ./node_modules/.bin/next build",
+    "start": "node -r dotenv-vault-core/config ./node_modules/.bin/next start",
+    "lint": "node -r dotenv-vault-core/config ./node_modules/.bin/next lint"
+  },
+  "dependencies": {
+    "dotenv": "^16.1.0-rc2",
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.29.0",
+    "eslint-config-next": "latest",
+    "turbo": "^1.8.5"
+  }
+}
