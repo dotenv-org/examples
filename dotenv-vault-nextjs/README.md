@@ -20,17 +20,16 @@ Install the dotenv 16.1 or greater.
 $ npm install dotenv@16.1.0-rc2 --save
 ```
 
-Load in `next.config.js`
+Modify your preload scripts in `package.json`.
 
 ```
-// next.config.js
-require('dotenv').config()
-
-module.exports = {
-  env: {
-    NEXT_PUBLIC_HELLO: process.env.NEXT_PUBLIC_HELLO
-  }
-};
+// package.json
+...
+  "scripts": {
+    "dev": "node -r dotenv/config ./node_modules/.bin/next dev",
+    "build": "node -r dotenv/config ./node_modules/.bin/next build",
+    "start": "node -r dotenv/config ./node_modules/.bin/next start"
+  },
 ```
 
 Try it out locally.
@@ -40,4 +39,3 @@ $ DOTENV_KEY="dotenv://:key_cd9fe909e1adf109873d5117c3f4beda33a9a8006f4eaeb73a2a
 ```
 
 You should see `Hello Universe` when visiting `http://localhost:3000/`
-
