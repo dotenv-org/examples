@@ -22,3 +22,16 @@ Set the `DOTENV_KEY` environment variable by copying and pasting the key value f
 ```
 DOTENV_KEY="dotenv://:key_cd9fe909e1adf109873d5117c3f4beda33a9a8006f4eaeb73a2a0d21bab0cbd4@dotenv.local/vault/.env.vault?environment=development" NEXT_PUBLIC_HELLO="dudeeee" npm run dev
 ```
+
+Using your .env.vault file
+
+```
+DOTENV_KEY="dotenv://:key_cd9fe909e1adf109873d5117c3f4beda33a9a8006f4eaeb73a2a0d21bab0cbd4@dotenv.local/vault/.env.vault?environment=development" npm run dev
+```
+
+Not using your .env.vault file.
+
+```
+npm run dev
+```
+
