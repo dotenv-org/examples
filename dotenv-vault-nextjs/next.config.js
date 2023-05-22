@@ -1,6 +1,4 @@
-const dotenv = require('dotenv')
-
-dotenv.config()
+require('dotenv').config()
 
 module.exports = {
   env: {
