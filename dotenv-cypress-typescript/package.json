@@ -4,6 +4,6 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "dotenv": "github:motdotla/dotenv#86ef7b2c7c9e8258743db7fedb7a25d6d57c3d15"
+    "dotenv": "^16.1.3"
   }
 }
