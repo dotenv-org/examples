@@ -1,3 +1,5 @@
+require('dotenv').config() // this is not necessary but here to demonstrate a failure temporarily
+
 describe('template spec', () => {
   it('passes', () => {
     cy.visit('https://example.cypress.io')
