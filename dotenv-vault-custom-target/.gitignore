@@ -34,3 +34,4 @@ yarn-error.log*
 !.env.project
 !.env.vault
 !.env.example
+!.env.keys
