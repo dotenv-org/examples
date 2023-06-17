@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "dotenv": "motdotla/dotenv#50163a1de9ae392fef03600350fef7d043e26361"
+  }
+}
