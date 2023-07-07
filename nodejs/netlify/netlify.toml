@@ -23,6 +23,25 @@
     "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
     "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
     "!node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/next/dist/compiled/webpack/bundle5.js",
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!.next/server/**/*.map",
+    "!**/node_modules/@next/swc*/**/*",
+    "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/compiled/webpack/bundle4.js",
     "!node_modules/next/dist/compiled/webpack/bundle5.js"
   ]
   external_node_modules = []
@@ -30,6 +49,25 @@
 
   [functions.___netlify-odb-handler]
   included_files = [
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!.next/server/**/*.map",
+    "!**/node_modules/@next/swc*/**/*",
+    "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/next/dist/compiled/webpack/bundle5.js",
     ".env",
     ".env.local",
     ".env.production",
@@ -73,6 +111,25 @@
     "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
     "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
     "!node_modules/next/dist/compiled/webpack/bundle4.js",
+    "!node_modules/next/dist/compiled/webpack/bundle5.js",
+    ".env",
+    ".env.local",
+    ".env.production",
+    ".env.production.local",
+    "./public/locales/**",
+    "./next-i18next.config.js",
+    ".next/server/**",
+    ".next/serverless/**",
+    ".next/*.json",
+    ".next/BUILD_ID",
+    ".next/static/chunks/webpack-middleware*.js",
+    "!.next/server/**/*.js.nft.json",
+    "!.next/server/**/*.map",
+    "!**/node_modules/@next/swc*/**/*",
+    "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+    "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+    "!node_modules/next/dist/compiled/webpack/bundle4.js",
     "!node_modules/next/dist/compiled/webpack/bundle5.js"
   ]
   external_node_modules = []
@@ -84,6 +141,21 @@ publish = ".next"
 
   [build.environment]
   NEXT_PRIVATE_TARGET = "server"
+
+[[redirects]]
+from = "/_next/data/1g1tdwtq-3YOl-c-FiiBd/index.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/1g1tdwtq-3YOl-c-FiiBd/about.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
+
+[[redirects]]
+from = "/_next/data/1g1tdwtq-3YOl-c-FiiBd/day.json"
+to = "/.netlify/functions/___netlify-handler"
+status = 200
 
 [[redirects]]
 from = "/_next/static/*"
@@ -123,7 +195,7 @@ force = true
   ]
 
 [[redirects]]
-from = "/_next/data/1g1tdwtq-3YOl-c-FiiBd/index.json"
+from = "/_next/data/q5W88WI_SJ4qq8fpbmy9M/index.json"
 to = "/.netlify/functions/___netlify-handler"
 status = 200
 
@@ -133,7 +205,7 @@ to = "/.netlify/functions/___netlify-handler"
 status = 200
 
 [[redirects]]
-from = "/_next/data/1g1tdwtq-3YOl-c-FiiBd/about.json"
+from = "/_next/data/q5W88WI_SJ4qq8fpbmy9M/about.json"
 to = "/.netlify/functions/___netlify-handler"
 status = 200
 
@@ -143,7 +215,7 @@ to = "/.netlify/functions/___netlify-handler"
 status = 200
 
 [[redirects]]
-from = "/_next/data/1g1tdwtq-3YOl-c-FiiBd/day.json"
+from = "/_next/data/q5W88WI_SJ4qq8fpbmy9M/day.json"
 to = "/.netlify/functions/___netlify-handler"
 status = 200
 
@@ -189,6 +261,25 @@ status = 200
         "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
         "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
         "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!.next/server/**/*.map",
+        "!**/node_modules/@next/swc*/**/*",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
         "!node_modules/next/dist/compiled/webpack/bundle5.js"
       ]
       external_node_modules = []
@@ -214,6 +305,25 @@ status = 200
         "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
         "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
         "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!.next/server/**/*.map",
+        "!**/node_modules/@next/swc*/**/*",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
         "!node_modules/next/dist/compiled/webpack/bundle5.js"
       ]
       external_node_modules = []
@@ -221,6 +331,25 @@ status = 200
 
       [context.dev.functions."_api_*"]
       included_files = [
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!.next/server/**/*.map",
+        "!**/node_modules/@next/swc*/**/*",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
         ".env",
         ".env.local",
         ".env.production",
@@ -279,6 +408,25 @@ status = 200
         "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
         "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
         "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!.next/server/**/*.map",
+        "!**/node_modules/@next/swc*/**/*",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
         "!node_modules/next/dist/compiled/webpack/bundle5.js"
       ]
       external_node_modules = []
@@ -304,6 +452,25 @@ status = 200
         "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
         "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
         "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!.next/server/**/*.map",
+        "!**/node_modules/@next/swc*/**/*",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
         "!node_modules/next/dist/compiled/webpack/bundle5.js"
       ]
       external_node_modules = []
@@ -311,6 +478,25 @@ status = 200
 
       [context.master.functions."_api_*"]
       included_files = [
+        ".env",
+        ".env.local",
+        ".env.production",
+        ".env.production.local",
+        "./public/locales/**",
+        "./next-i18next.config.js",
+        ".next/server/**",
+        ".next/serverless/**",
+        ".next/*.json",
+        ".next/BUILD_ID",
+        ".next/static/chunks/webpack-middleware*.js",
+        "!.next/server/**/*.js.nft.json",
+        "!.next/server/**/*.map",
+        "!**/node_modules/@next/swc*/**/*",
+        "!node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*",
+        "!node_modules/next/dist/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/next-server/server/lib/squoosh/**/*.wasm",
+        "!node_modules/next/dist/compiled/webpack/bundle4.js",
+        "!node_modules/next/dist/compiled/webpack/bundle5.js",
         ".env",
         ".env.local",
         ".env.production",
