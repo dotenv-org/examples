@@ -1,0 +1,8 @@
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
+
+# Added for example purposes only! You should not commit your .env file to code.
+!.env
