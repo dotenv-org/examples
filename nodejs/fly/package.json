@@ -1,14 +1,5 @@
 {
-  "name": "fly",
-  "version": "1.0.0",
-  "description": "Read [dotenv.org/docs/languages/nodejs/fly](https://www.dotenv.org/docs/languages/nodejs/fly)",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2"
+    "start": "node index.js"
   }
 }

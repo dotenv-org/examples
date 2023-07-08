@@ -1,0 +1,18 @@
+# fly.toml app configuration file generated for proud-frog-1077 on 2023-07-07T22:31:47-07:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "proud-frog-1077"
+primary_region = "mia"
+
+[env]
+  PORT = "8080"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
