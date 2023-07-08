@@ -3,3 +3,8 @@ Dockerfile
 .dockerignore
 node_modules
 .git
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
