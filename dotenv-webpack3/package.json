@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "dotenv": "github:motdotla/dotenv#bf7e6262470e62159321b15e236849b9d91eeaae",
+    "dotenv": "^16.3.1",
     "node-polyfill-webpack-plugin": "^2.0.1"
   },
   "devDependencies": {
