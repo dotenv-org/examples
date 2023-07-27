@@ -1,11 +1,12 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "dev": "node -r dotenv/config ./node_modules/.bin/next",
+    "build": "node -r dotenv/config ./node_modules/.bin/next build",
+    "start": "node -r dotenv/config ./node_modules/.bin/next start"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
