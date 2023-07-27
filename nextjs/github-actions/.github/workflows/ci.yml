@@ -1,0 +1,14 @@
+name: npm run build
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 16
+    - run: npm install
+    - run: npm run build && cat .next/server/pages/index.html
+      env:
+        DOTENV_KEY: ${{ secrets.DOTENV_KEY }}
