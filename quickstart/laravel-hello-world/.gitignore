@@ -20,3 +20,8 @@ yarn-error.log
 
 # for example purposes only. don't commit your .env file to code
 !.env
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
