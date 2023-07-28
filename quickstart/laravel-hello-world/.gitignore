@@ -17,3 +17,6 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+
+# for example purposes only. don't commit your .env file to code
+!.env
