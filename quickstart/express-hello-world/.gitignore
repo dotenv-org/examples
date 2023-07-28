@@ -3,3 +3,6 @@
 .flaskenv*
 !.env.project
 !.env.vault
+
+# for example purposes only. recommended you don't usually commit your .env file to code
+!.env
