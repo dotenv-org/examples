@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "157448ba345026ec6bbe1cbdb4b685b0",
+    "content-hash": "5a2647311c91c9e8238fe7663afc7079",
     "packages": [
         {
             "name": "brick/math",
@@ -306,16 +306,16 @@
         },
         {
             "name": "dotenv-org/phpdotenv-vault",
-            "version": "v0.1.1",
+            "version": "v0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dotenv-org/phpdotenv-vault.git",
-                "reference": "c60d92c6e17471ea1d74da618dc7ac5a0a7ef5ca"
+                "reference": "61dbb12f3d360027092e36b6e42a388d1bae3cb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dotenv-org/phpdotenv-vault/zipball/c60d92c6e17471ea1d74da618dc7ac5a0a7ef5ca",
-                "reference": "c60d92c6e17471ea1d74da618dc7ac5a0a7ef5ca",
+                "url": "https://api.github.com/repos/dotenv-org/phpdotenv-vault/zipball/61dbb12f3d360027092e36b6e42a388d1bae3cb4",
+                "reference": "61dbb12f3d360027092e36b6e42a388d1bae3cb4",
                 "shasum": ""
             },
             "require": {
@@ -353,9 +353,9 @@
             ],
             "support": {
                 "issues": "https://github.com/dotenv-org/phpdotenv-vault/issues",
-                "source": "https://github.com/dotenv-org/phpdotenv-vault/tree/v0.1.1"
+                "source": "https://github.com/dotenv-org/phpdotenv-vault/tree/v0.1.2"
             },
-            "time": "2023-07-28T21:49:45+00:00"
+            "time": "2023-07-28T22:15:22+00:00"
         },
         {
             "name": "dragonmantank/cron-expression",

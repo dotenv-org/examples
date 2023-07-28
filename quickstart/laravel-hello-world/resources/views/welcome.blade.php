@@ -1,5 +1,6 @@
 <?php
-  // resources/views/welcome.blade.php
-  $world = $_ENV['HELLO'];
-  echo "Hello $world";
-?>
+// resources/views/welcome.blade.php
+
+$hello = getenv('HELLO');
+
+echo "Hello $hello";
