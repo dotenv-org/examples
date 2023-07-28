@@ -1,0 +1,10 @@
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
+
+__pycache__
+
+# for example purposes only. you should not be committing your real .env file to code
+!.env
