@@ -4,3 +4,8 @@
 .env
 Dockerfile
 fly.toml
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
