@@ -1,3 +1,6 @@
+require('dotenv').config()
+console.log(process.env) // remove this after you've confirmed it is working
+
 const PORT = process.env.PORT || 3000
 const express = require('express')
 const app = express()
