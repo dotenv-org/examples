@@ -1,0 +1,23 @@
+{
+  "name": "gatsby-edge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "gatsby-edge",
+  "author": "Scott Motte",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "gatsby": "^5.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

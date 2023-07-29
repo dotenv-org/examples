@@ -1,0 +1,11 @@
+node_modules/
+.cache/
+public
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
+
+# for example purposes only. don't commit your real .env file to code.
+!.env
