@@ -6,6 +6,8 @@ frameworkVersion: '3'
 provider:
   name: aws
   runtime: nodejs18.x
+  environment:
+    DOTENV_KEY: ${param:DOTENV_KEY}
 
 functions:
   function1:
