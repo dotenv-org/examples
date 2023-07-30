@@ -1,4 +1,6 @@
 import type { V2_MetaFunction } from "@remix-run/node";
+import { json } from "@remix-run/node";
+import { useLoaderData } from "@remix-run/react";
 
 export const meta: V2_MetaFunction = () => {
   return [
@@ -7,10 +9,20 @@ export const meta: V2_MetaFunction = () => {
   ];
 };
 
+export async function loader() {
+  return json({
+    ENV: {
+      HELLO: process.env.HELLO, // HELLO="World" in .env file
+    },
+  });
+}
+
 export default function Index() {
+  const data = useLoaderData()
+
   return (
     <div>
-      Hello {process.env.NEXT_PUBLIC_HELLO}.
+      Hello {data.ENV.HELLO}.
     </div>
   );
 }
