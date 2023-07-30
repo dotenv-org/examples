@@ -1,0 +1,12 @@
+org: dotenv
+app: aws-lambda
+service: aws-lambda
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+functions:
+  function1:
+    handler: index.handler
