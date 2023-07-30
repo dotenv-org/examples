@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    command: node index.js
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: ${NODE_ENV}
+      DOTENV_KEY: ${DOTENV_KEY}
