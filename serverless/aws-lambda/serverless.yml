@@ -10,3 +10,8 @@ provider:
 functions:
   function1:
     handler: index.handler
+
+package:
+  patterns:
+    - '!.env*'
+    - '.env.vault'
