@@ -1,4 +1,5 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
