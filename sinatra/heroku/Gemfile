@@ -1,3 +1,5 @@
 source "https://rubygems.org"
 
 gem "sinatra", "~> 3.0"
+
+gem "rackup", "~> 1.0"
