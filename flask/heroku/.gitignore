@@ -9,3 +9,6 @@ venv/
 env*
 dist/
 build/
+
+# for example purposes only. you shouldn't commit your .env file to code
+!.env
