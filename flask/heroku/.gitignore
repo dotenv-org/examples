@@ -12,3 +12,8 @@ build/
 
 # for example purposes only. you shouldn't commit your .env file to code
 !.env
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
