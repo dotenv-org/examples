@@ -4,6 +4,9 @@ load_dotenv()
 import os
 from flask import Flask
 
+for key, value in os.environ.items():
+  print(f"{key}={value}")
+
 app = Flask(__name__)
 
 @app.route('/')
