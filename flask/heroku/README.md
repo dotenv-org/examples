@@ -37,3 +37,10 @@ gunicorn --workers 4 --bind 0.0.0.0:3001 wsgi2:app
 Note the `wsgi2`.
 
 
+Additional note. Gunicorn DOES work if `DOTENV_KEY` is passed to it.
+
+```
+DOTENV_KEY='dotenv://:key_df91b3e1709d316da48a9e05ac4b6818462e28890a518665173b12cfd6136cc3@dotenv.org/vault/.env.vault?environment=production' gunicorn --workers 4 --bind 0.0.0.0:3001 wsgi:app
+```
+
+So it is failing to degrade gracefully.
