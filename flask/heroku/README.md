@@ -16,3 +16,5 @@ Unsuccessfully says `Hello None`
 gunicorn --workers 4 --bind 0.0.0.0:3002 wsgi:app
 # http://localhost:3002
 ```
+
+This DOES NOT occur if I used python-dotenv instead of python-dotenv-vault.
