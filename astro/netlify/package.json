@@ -1,0 +1,17 @@
+{
+  "name": "netlify",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "node -r dotenv/config ./node_modules/.bin/astro dev",
+    "start": "node -r dotenv/config ./node_modules/.bin/astro dev",
+    "build": "node -r dotenv/config ./node_modules/.bin/astro build",
+    "preview": "node -r dotenv/config ./node_modules/.bin/astro preview",
+    "astro": "node -r dotenv/config ./node_modules/.bin/astro"
+  },
+  "dependencies": {
+    "@astrojs/netlify": "^2.5.2",
+    "astro": "^2.9.7",
+    "dotenv": "^16.3.1"
+  }
+}
