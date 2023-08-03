@@ -4,12 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "node -r dotenv/config ./node_modules/.bin/vite",
+    "build": "tsc && node -r dotenv/config ./node_modules/.bin/vite build",
+    "preview": "node -r dotenv/config ./node_modules/.bin/vite preview"
   },
   "devDependencies": {
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
   }
 }
