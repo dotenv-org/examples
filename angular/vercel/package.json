@@ -2,11 +2,11 @@
   "name": "vercel",
   "version": "0.0.0",
   "scripts": {
-    "ng": "node -r dotenv/config ./node_modules/.bin/ng",
-    "start": "node -r dotenv/config ./node_modules/.bin/ng serve",
-    "build": "node -r dotenv/config ./node_modules/.bin/ng build",
-    "watch": "node -r dotenv/config ./node_modules/.bin/ng build --watch --configuration development",
-    "test": "node -r dotenv/config ./node_modules/.bin/ng test"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
