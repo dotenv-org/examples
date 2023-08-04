@@ -1,0 +1,36 @@
+{
+  "EventSourceMappings": [
+    {
+      "EventSourceArn": "your event source arn",
+      "StartingPosition": "LATEST",
+      "BatchSize": 100,
+      "Enabled": true
+    }
+  ],
+  "ScheduleEvents": [
+    {
+      "ScheduleName": "node-lambda-test-schedule",
+      "ScheduleState": "ENABLED",
+      "ScheduleExpression": "rate(1 hour)",
+      "Input":
+        {
+          "key1": "value",
+          "key2": "value"
+        }
+    }
+  ],
+  "S3Events": [{
+    "Bucket": "BUCKET_NAME",
+    "Events": [
+      "s3:ObjectCreated:*"
+    ],
+    "Filter": {
+      "Key": {
+        "FilterRules": [{
+          "Name": "prefix",
+          "Value": "STRING_VALUE"
+        }]
+      }
+    }
+  }]
+}
