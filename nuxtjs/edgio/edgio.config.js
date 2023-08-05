@@ -3,6 +3,9 @@
 // Learn more about this file at https://docs.edg.io/guides/edgio_config
 module.exports = {
   connector: '@edgio/nuxt-nitro',
+  includeFiles: {
+    '.env.vault': true,
+  },
 
   // The name of the site in Edgio to which this app should be deployed.
   // name: 'my-site-name',
