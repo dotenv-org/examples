@@ -3,10 +3,6 @@
 // Learn more about this file at https://docs.edg.io/guides/edgio_config
 module.exports = {
   connector: '@edgio/nuxt-nitro',
-  includeFiles: {
-    '.env.vault': true,
-  },
-
   // The name of the site in Edgio to which this app should be deployed.
   // name: 'my-site-name',
 
@@ -55,8 +51,9 @@ module.exports = {
   // This option is primarily used to share source code with Edgio support personnel for the purpose of debugging. If omitted,
   // edgio deploy --includeSources will result in all files which are not gitignored being uploaded to Edgio.
   //
-  // sources : [
-  //   '**/*', // include all files
-  //   '!(**/secrets/**/*)', // except everything in the secrets directory
-  // ],
+
+  sources: [
+    '**/*', // include all files
+    '!.env', // except the .env file
+  ],
 }
