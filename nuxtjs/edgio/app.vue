@@ -1,3 +1,7 @@
+<script setup lang="ts">
+  const config = useRuntimeConfig()
+</script>
+
 <template>
-  Hello {{NUXT_PUBLIC_HELLO}}.
+  Hello {{config.public.HELLO}}.
 </template>

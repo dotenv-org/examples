@@ -24,3 +24,8 @@ logs
 
 # Edgio generated build directory
 .edgio
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
