@@ -1,0 +1,15 @@
+# .circleci/config.yml
+version: 2.1
+orbs:
+  ruby: circleci/ruby@2.1.0
+jobs:
+  build:
+    docker:
+      - image: cimg/ruby:2.7.3
+    steps:
+      - checkout
+      - ruby/install-deps
+      - run:
+          name: Ruby build
+          command: ruby build.rb
+
