@@ -51,9 +51,9 @@ module.exports = {
   // This option is primarily used to share source code with Edgio support personnel for the purpose of debugging. If omitted,
   // edgio deploy --includeSources will result in all files which are not gitignored being uploaded to Edgio.
   //
-
-  sources: [
-    '**/*', // include all files
-    '!.env', // except the .env file
-  ],
+  //
+  // sources : [
+  //   '**/*', // include all files
+  //   '!(**/secrets/**/*)', // except everything in the secrets directory
+  // ],
 }
