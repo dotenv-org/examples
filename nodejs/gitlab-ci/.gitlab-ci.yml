@@ -1,8 +1,5 @@
 image: node:20.5
 
-variables:
-  DOTENV_KEY: "$DOTENV_KEY"
-
 build:
   stage: build
   script:
