@@ -1,5 +1,8 @@
 // index.js
-const PORT = process.env.PORT || 3000
+require('dotenv').config()
+console.log(process.env) // remove this after you've confirmed it is working
+
+const PORT = process.env.PORT || 80
 const http = require('http')
 const server = http.createServer((req, res) => {
   res.statusCode = 200
