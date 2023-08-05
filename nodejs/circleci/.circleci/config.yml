@@ -11,6 +11,6 @@ jobs:
       - node/install
       - node/install-packages
       - run:
-          name: Run code
-          command: node index
+          name: Run build
+          command: npm run build
 
