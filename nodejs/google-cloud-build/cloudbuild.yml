@@ -1,0 +1,11 @@
+# cloudbuild.yml
+steps:
+- name: node
+  entrypoint: npm
+  args: ['install']
+- name: node
+  entrypoint: npm
+  env:
+    - 'DOTENV_KEY=${_DOTENV_KEY}'
+  args: ['run', 'build']
+
