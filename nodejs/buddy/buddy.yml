@@ -1,0 +1,14 @@
+- pipeline: "Build"
+  on: "EVENT"
+  events:
+  - type: "PUSH"
+  resources: "DEFAULT"
+  actions:
+  - action: "build"
+    type: "BUILD"
+    docker_image_name: "library/node"
+    docker_image_tag: "16"
+    execute_commands:
+      - npm install
+      - npm run build
+
