@@ -18,5 +18,8 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "dotenv-cli": "github:motdotla/dotenv-cli"
+  }
 }
