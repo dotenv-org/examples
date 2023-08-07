@@ -3,9 +3,9 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview"
+		"dev": "node -r dotenv/config ./node_modules/.bin/vite dev",
+		"build": "node -r dotenv/config ./node_modules/.bin/vite build",
+		"preview": "node -r dotenv/config ./node_modules/.bin/vite preview"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
@@ -13,5 +13,8 @@
 		"svelte": "^4.0.5",
 		"vite": "^4.4.2"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"dotenv": "^16.3.1"
+	}
 }
