@@ -1,0 +1,3 @@
+.env*
+.flaskenv*
+!.env.vault
