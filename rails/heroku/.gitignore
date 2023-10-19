@@ -36,3 +36,8 @@
 
 # FOR EXAMPLE PURPOSES ONLY. Do not commit your .env file to code.
 !.env
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
