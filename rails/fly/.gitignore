@@ -33,3 +33,11 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# FOR EXAMPLE PURPOSES ONLY. Don't commit your real .env file to code.
+!.env
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
