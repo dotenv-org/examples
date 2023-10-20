@@ -1,0 +1,36 @@
+# Name of your application. Used to uniquely configure containers.
+service: kamal-example
+
+# Name of the container image.
+image: yourdockerorg/kamal-example
+
+# Deploy to these servers. Replace with your server(s) ip address(es)
+servers:
+  - 5.78.32.32 # your_server_ip
+
+# Credentials for your image host.
+registry:
+  # Specify the registry server, if you're not using Docker Hub
+  # server: registry.digitalocean.com / ghcr.io / ...
+  username: your_username_on_docker_hub
+
+  # Always use an access token rather than real password when possible.
+  password:
+    - KAMAL_REGISTRY_PASSWORD
+
+# Inject ENV variables into containers (secrets come from .env).
+# Remember to run `kamal env push` after making changes!
+# env:
+#   clear:
+#     DB_HOST: 192.168.0.2
+#   secret:
+#     - RAILS_MASTER_KEY
+env:
+  secret:
+    - RAILS_MASTER_KEY
+    - DOTENV_KEY
+
+# https://dev.to/adrienpoly/deploying-a-rails-app-with-mrsk-on-hetzner-a-beginners-guide-39kp
+volumes:
+  - "storage:/rails/storage"
+
