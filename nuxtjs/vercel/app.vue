@@ -1,5 +1,7 @@
+<script setup lang="ts">
+  const config = useRuntimeConfig()
+</script>
+
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  Hello {{config.public.HELLO}}.
 </template>
