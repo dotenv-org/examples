@@ -1,0 +1,12 @@
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
+
+# FOR EXAMPLE PURPOSES ONLY. NEVER commit your keys to code.
+!.env.keys
+
+# FOR EXAMPLE PURPOSES ONLY. NEVER commit your .env files to code.
+!.env.production
+!.env
