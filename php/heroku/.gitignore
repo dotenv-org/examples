@@ -1,0 +1,10 @@
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
+
+# for guide/demo purposes only. DON'T commit your real .env to code
+!.env
+
+vendor/
