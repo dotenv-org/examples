@@ -1,0 +1,5 @@
+{
+    "require": {
+        "dotenv-org/phpdotenv-vault": "^0.2.4"
+    }
+}
