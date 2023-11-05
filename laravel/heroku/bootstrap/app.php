@@ -1,5 +1,10 @@
 <?php
 
+// Load phpdotenv if it hasn't been loaded yet
+if (!class_exists(DotenvVault\Environment\DotenvVault::class)) {
+    (DotenvVault\DotenvVault::createImmutable(__DIR__.'/../'))->safeLoad();
+}
+
 /*
 |--------------------------------------------------------------------------
 | Create The Application
