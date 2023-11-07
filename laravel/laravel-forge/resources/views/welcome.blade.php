@@ -1,0 +1,1 @@
+Hello {{ env('HELLO') }}.
