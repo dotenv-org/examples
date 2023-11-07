@@ -1,8 +1,8 @@
 <?php
-
+// example1
 require 'vendor/autoload.php';
 
-$dotenv = Dotenv\Dotenv::createUnsafeImmutable(__DIR__);
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
 $env_hello = $_ENV['HELLO'];
