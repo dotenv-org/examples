@@ -1,11 +1,5 @@
 <?php
 
-// Load phpdotenv-vault
-if (!class_exists(DotenvVault\Environment\DotenvVault::class)) {
-    (DotenvVault\DotenvVault::createImmutable(__DIR__.'/../'))->safeLoad();
-    (DotenvVault\DotenvVault::createImmutable(__DIR__.'/../'))->safeLoad();
-}
-
 /*
 |--------------------------------------------------------------------------
 | Create The Application
