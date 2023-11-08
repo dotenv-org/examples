@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d3b199b5aa630810967a87f3aa9572f9",
+    "content-hash": "fffd7701088bc2aca175147166b34097",
     "packages": [
         {
             "name": "brick/math",
@@ -60,6 +60,70 @@
                 }
             ],
             "time": "2023-01-15T23:15:59+00:00"
+        },
+        {
+            "name": "davidcochrum/dotenv-vault-laravel",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:davidcochrum/dotenv-vault-laravel.git",
+                "reference": "0940ec804d70070eb0f8ee2e1bfafce591643105"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/davidcochrum%2Fdotenv-vault-laravel/repository/archive.zip?sha=0940ec804d70070eb0f8ee2e1bfafce591643105",
+                "reference": "0940ec804d70070eb0f8ee2e1bfafce591643105",
+                "shasum": ""
+            },
+            "require": {
+                "dotenv-org/phpdotenv-vault": "^0.2.4",
+                "illuminate/support": "^10.0|^9.0|^8.0|^7.0|^6.0|^5.8",
+                "php": "^8.0|^7.1.3"
+            },
+            "require-dev": {
+                "captainhook/captainhook": "^5.8",
+                "captainhook/plugin-composer": "^5.3",
+                "orchestra/testbench": "^6.0",
+                "php-mock/php-mock-phpunit": "^2.8",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "DotenvVault\\Laravel\\DotenvVaultServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DotenvVault\\Laravel\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Cochrum",
+                    "email": "david@chrum.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel package to load environment variables from encrypted .env.vault files",
+            "homepage": "https://github.com/davidcochrum/dotenv-vault-laravel",
+            "keywords": [
+                "configurations",
+                "dotenv",
+                "dotenv-vault",
+                "env",
+                "environment",
+                "environment variables",
+                "laravel",
+                "laravel-dotenv"
+            ],
+            "time": "2023-11-08T02:48:31+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -8130,5 +8194,5 @@
         "php": "^8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
