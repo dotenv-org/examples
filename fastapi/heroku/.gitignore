@@ -1,0 +1,19 @@
+.DS_Store
+.env
+*.pyc
+*.pyo
+env/
+venv/
+.venv/
+env*
+dist/
+build/
+
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
+
+# for example purposes ONLY. do not commit your .env file to source code
+!.env
