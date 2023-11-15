@@ -1,0 +1,9 @@
+/target
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
+
+# for example purposes only. DO NOT commit your .env file to code
+!.env
