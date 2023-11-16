@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "pm2-runtime start ecosystem.config.js --env production"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "pm2": "^5.3.0"
+  }
+}
