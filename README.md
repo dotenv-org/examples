@@ -1,4 +1,8 @@
-Works with [dotenv-vault](https://github.com/dotenv-org/dotenv-vault). Learn more at [dotenv.org/vault](https://dotenv.org/vault).
+<div align="center">
+🎉 announcing <a href="https://github.com/dotenvx/dotenvx">dotenvx</a>. <em>run anywhere, multi-environment, encrypted envs</em>.
+</div>
+
+---
 
 # dotenv-examples
 
