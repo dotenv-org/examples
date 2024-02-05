@@ -1,3 +1,3 @@
-require('dotenv').config({ multiline: true, debug: true })
+require('dotenv').config()
 
-console.log("hello", process.env.NAME)
+console.log(process.env.PRIVATE_KEY)
